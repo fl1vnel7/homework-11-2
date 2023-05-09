@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body, html {
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8EBE9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+    width: 70%;
+    height: 80%;
+    display: flex;
+}
+.image_part {
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.align {
+    display: flex;
+    align-items: center;
+}
+.image_part span {
+    font-size: 22px;
+}
+.image_part img {
+    width: 30px;
+}
+.image_part img, span {
+    cursor: pointer;
+    margin: 5px;
+}
+.text_part {
+    background-color: #fff;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+header ul li {
+    margin: 30px;
+}
+header ul li a {
+    color: #a3a3a3;
+    transition: 0.3s;
+    font-size: 18px;
+}
+header ul li a:hover {
+    color: #000;
+}
+.middle {
+    text-align: justify;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.middle h1 {
+    font-size: 50px;
+}
+.middle h1 span {
+    letter-spacing: -5px;
+}
+.middle p {
+    font-size: 25px;
+    margin: 15px;
+    text-align: left;
+}
+.bottom {
+    display: flex;
+}
+.left_part {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.left_part img {
+    width: 300px;
+}
+.svg img {
+    width: 60px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    cursor: pointer;
+}
+.right_part {
+    width: 60%;
+}
+.right_part p {
+    font-size: 25px;
+    line-height: 40px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.flex img {
+    width: 50px;
+}
